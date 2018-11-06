@@ -384,4 +384,7 @@
   .custom-carousel-inner {
     height: auto;
   }
+  .header-navbar-div {
+    display: none;
+  }
 }

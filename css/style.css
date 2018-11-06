@@ -37,6 +37,10 @@
   background: var(--primary);
 }
 
+.custom-carousel-inner {
+  height: 87.5vh;
+}
+
 .second-section,
 .third-section {
   margin-bottom: 3rem;
@@ -46,6 +50,10 @@
   color: var(--light);
   padding: 2px 1rem;
   font-size: 0.85rem;
+}
+.great-quote {
+  font-weight: 500;
+  text-decoration: underline;
 }
 .custom-header-navbar {
   background: url(../images/header-nav-background.png);
@@ -334,4 +342,46 @@
 
 .footer-social-links li:hover {
   color: var(--secondary);
+}
+
+@media only screen and (max-width: 480px) {
+  .second-section-part-one {
+    padding: 1.5rem;
+  }
+  .second-section-part-two {
+    padding: 1.5rem;
+  }
+  .three-cards {
+    padding: 2.5rem;
+  }
+  .get-in-touch-first-section,
+  .get-in-touch-second-section {
+    padding: 1.5rem 1.75rem 1.5rem 1.5rem;
+  }
+  .footer-section-one {
+    text-align: center;
+  }
+  .footer-address {
+    padding: 1.5rem;
+  }
+  .footer-links {
+    margin: 0rem auto;
+    padding: 0;
+  }
+  .footer-links li {
+    margin-bottom: 0.75rem;
+    text-decoration: underline;
+  }
+  .footer-social-links {
+    padding: 1rem 1rem 0 1rem;
+  }
+  .footer-copyright {
+    font-size: 0.8rem;
+  }
+  .header-social-icons {
+    display: none;
+  }
+  .custom-carousel-inner {
+    height: auto;
+  }
 }
